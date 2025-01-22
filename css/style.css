@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+h2 {
+  color: rgb(66, 64, 169);
+  font-size: 2.5rem;
+}
+
+.primary-nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-nav a {
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+.primary-nav a:hover,
+.primary-nav a:focus-visible {
+  color: rgb(27, 126, 121);
+}
+a {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+
+.sched {
+  background-color: rgb(27, 126, 121);
+  border-style: solid;
+  border-color: darkblue;
+}
+.sched-row {
+  background-color: gray;
+  border-style: solid;
+  border-color: darkblue;
+  font-size: 0.9rem;
+}
+
+img {
+  max-inline-size: 100%;
+  display: block; /* to prevent empty space reserved for mixing with text charactersthat hang below the baseline */
+}
+
+a:hover,
+a:focus-visible {
+  color: blueviolet;
+}
+
+section {
+  margin-block: 50px;
+}
+
+.teal-bg {
+  color: #fff;
+  border: solid black 10px;
+  background-color: rgb(20, 143, 143);
+  padding: 20px;
+}
+
+.teal-text {
+  color: rgb(20, 143, 143);
+}
+
+.skier-bg {
+  background-image: url("../images/Fawn-skate.jpg");
+  color: white;
+  padding: 10% 10% 30% 10%;
+  background-size: cover;
+}
+
+.classic-bg {
+  background-image: url("../images/lnsbarn.jpg");
+  color: white;
+  padding: 10% 10% 30% 10%;
+  background-size: cover;
+}
+
+.coffee-bg {
+  background-image: url("../images/coffee.jpg");
+  color: white;
+  padding: 30% 10% 10% 10%;
+  background-size: cover;
+}
+
+.wrapper {
+  max-inline-size: 1000px;
+  margin-inline: auto;
+}
+
+footer {
+  color: black;
+  background-color: #a4b7cb;
+  text-align: center;
+}
