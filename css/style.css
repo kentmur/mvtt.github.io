@@ -58,7 +58,7 @@ a:visited {
   color: white;
 }
 .sched-row {
-  background-color: gray;
+  background-color: lightgrey;
   border-style: solid;
   border-color: darkblue;
   font-size: 0.9rem;
