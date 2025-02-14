@@ -63,6 +63,13 @@ a:visited {
   border-color: darkblue;
   font-size: 0.9rem;
 }
+.wms-sched-row {
+  color: pink;
+  background-color: rgb(67, 105, 187);
+  border-style: solid;
+  border-color: darkblue;
+  font-size: 0.9rem;
+}
 
 img {
   max-inline-size: 100%;
